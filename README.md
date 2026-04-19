@@ -1,4 +1,6 @@
-# 3LunarS2O
+# Lunar SAR-to-optical image translation
+
+SAR-to-Optical Image Translation for Permanently Shadowed Region Exploration and its Application
 
 Inference-only PyTorch release for Lunar SAR-to-optical image translation.
 
