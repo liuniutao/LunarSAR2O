@@ -1,0 +1,5 @@
+# Tested for inference in the local pycnn environment (Python 3.8.19).
+numpy==1.24.3
+Pillow==10.3.0
+torch==2.4.1
+tqdm==4.65.2
