@@ -13,7 +13,7 @@ from models.LunarS2OUNet import LunarS2OUNet
 
 SUPPORTED_EXTENSIONS = ("*.png", "*.jpg", "*.jpeg", "*.tif", "*.tiff", "*.bmp")
 DEFAULT_CKPT = Path("ckpt/CKPTv1.pth")
-PATCH_SIZE = 256
+PATCH_SIZE = 512
 OVERLAP = 64
 
 
