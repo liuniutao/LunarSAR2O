@@ -8,21 +8,13 @@ This repository is trimmed to a single public demo pipeline:
 
 `raw SAR .mat -> Preprocess.m -> SAR .png -> infer_BigRS.py -> optical output`
 
+
 ## Citation
 
 If you use this repository, checkpoint, demo pipeline, or generated results in your research, please cite the following submitted manuscript:
-
-**LunarS2O: SAR-to-Optical Image Translation for Permanently Shadowed Region Exploration and its Application**
-
-| Item | Information |
-| --- | --- |
-| Journal | Icarus |
-| First author | Tong Xia |
-| Corresponding author | Niutao Liu |
-| Date of submission | 13 November 2025 |
-| Status | Submitted |
-
-BibTeX information will be updated after the manuscript is accepted or published.
+```text
+Xia, T.; Liu, N. LunarS2O: SAR-to-Optical Image Translation for Permanently Shadowed Region Exploration and its Application. Icarus, submitted, 13th November 2025. Corresponding author: Niutao Liu.
+```
 
 ## Repository contents
 
@@ -39,7 +31,6 @@ BibTeX information will be updated after the manuscript is accepted or published
 ```bash
 pip install -r requirements.txt
 ```
-
 Tested inference environment: Python 3.8.19 in the local `pycnn` Conda environment.
 
 ## Demo pipeline
@@ -61,6 +52,6 @@ python infer_BigRS.py --input "data/Example input images/v2" --output "data/Exam
 
 ## Notes
 
-- Input images are expected to be SAR images, with size at or above 600x600 pixels.
+- Input images are expected to be SAR images，with size at or above 600×600 pixel.
 - Output images are saved as `{input_name}_rgb.{ext}`.
 - This repository does not include training code.
