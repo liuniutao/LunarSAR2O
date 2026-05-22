@@ -11,9 +11,10 @@ This repository is trimmed to a single public demo pipeline:
 
 ## Citation
 
-If you use this repository, checkpoint, demo pipeline, or generated results in your research, please cite the following submitted manuscript:
+If you use this repository, checkpoint, demo pipeline, or generated results in your research, please cite the following cite:
+https://www.sciencedirect.com/science/article/pii/S0019103526002447
 ```text
-Xia, T.; Liu, N. LunarS2O: SAR-to-Optical Image Translation for Permanently Shadowed Region Exploration and its Application. Icarus, submitted, 13th November 2025. Corresponding author: Niutao Liu.
+Xia, T.; Liu, N.; Zheng, Y.; Jin, Y.-Q. LunarS2O: SAR-to-optical image translation for permanently shadowed region exploration and its application. Icarus 2026, 117178, doi:https://doi.org/10.1016/j.icarus.2026.117178.
 ```
 
 ## Repository contents
